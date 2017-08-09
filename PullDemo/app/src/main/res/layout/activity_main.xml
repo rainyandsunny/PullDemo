@@ -3,13 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/c_bg">
+    >
 
-    <include layout="@layout/fragment_biil_index_titlebar"/>
-
-    <ListView
+    <com.yuntu.demo.pulldemo.MyListView
         android:id="@+id/datalist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
 </LinearLayout>
